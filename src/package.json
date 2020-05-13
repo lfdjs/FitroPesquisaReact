@@ -1,0 +1,13 @@
+{
+  "name": "Header Filter - DevExtreme Pivot Grid",
+  "description": "A header filter allows a user to filter field values by including or excluding them from the applied filter. Click a header filter icon in the field chooser or on the field panel to open a popup menu that displays all unique field values.\nUse the following options to configure the header filter:\n\n\nallowSearch\nEnables a user to search through field values.\n\n\nshowRelevantValues\nSpecifies whether to show all field values or only those that satisfy the other applied filters.\n\n\nwidth and height\nConfigures the popup menu size.\n\n\nIn this demo, a filter is applied to the Country field. This filter includes only the United Kingdom. The City field displays only cities in this country because the showRelevantValues option is true. If you clear the corresponding checkbox under the widget, the City field displays all cities, regardless of the other applied filters.\n",
+  "dependencies": {
+    "react-dom": "16",
+    "react": "16",
+    "quill": "1.3.7",
+    "prop-types": "latest",
+    "jszip": "3.1.3",
+    "devextreme-react": "19.2",
+    "devextreme": "19.2"
+  }
+}
